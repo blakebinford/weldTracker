@@ -1,0 +1,9 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Weld Tracker | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">Weld Tracker</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
